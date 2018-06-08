@@ -8,9 +8,9 @@
 		new BMap.Point(116.399, 39.910),
 		new BMap.Point(116.405, 39.920),
 		new BMap.Point(116.425, 39.900)
-	], {strokeColor:"blue", strokeWeight:2, strokeOpacity:0.5});   //创建折线
+	], {strokeColor:"red", strokeWeight:2, strokeOpacity:0.5});   //创建折线
 	
-	var circle = new BMap.Circle(point,500,{strokeColor:"blue", strokeWeight:2, strokeOpacity:0.5}); //创建圆
+	var circle = new BMap.Circle(point,500,{strokeColor:"red", strokeWeight:2, strokeOpacity:0.5}); //创建圆
 	
 	var polygon = new BMap.Polygon([
 		new BMap.Point(116.387112,39.920977),
